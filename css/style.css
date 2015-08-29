@@ -1,0 +1,118 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 15px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+.jumbotron {
+    background:
+  linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    /* bottom, image */
+    url('http://gdurl.com/4Vmw');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.jumbotron .container {
+  position: relative;
+  top:130px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.portfolio {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.portfolio h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.portfolio p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.thumbnail{
+     border:none !important;
+     background: transparent !important;
+     box-shadow:none !important;
+
+  }
+
+.services {
+  background-color: #f7f7f7;
+}
+
+.services h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.services a {
+  color: #00b0ff;
+}
+
+/**About**/
+
+.about-title {
+	background:
+  linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    /* bottom, image */
+    url('http://gdurl.com/4Vmw');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.about-title h1, .about-title h2 {
+	color: white;
+	text-align: center;
+}
+
+.about p {
+	padding-top: 50px;
+	font-size: 1.3em;
+}
+
+.about-footer {
+	background-color: #efefef;
+	margin-top: 60px;
+}
+
+#twitter {
+	max-width: 3%;
+}
+
