@@ -9,17 +9,17 @@
 
   </head>
 
-  <body>
-    <div class="nav">
+  <body data-spy="scroll" data-target="#navbar-main">
+    <div class="nav navbar-tabs" id="navbar-main">
       <div class="container">
         <ul class="pull-left">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
         </ul>
         <ul class="pull-right">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -28,13 +28,12 @@
       <div class="container">
         <h1>catfish.bluefish</h1>
         <h2>a web design and development company</h2>
-        <a href="#">learn more</a>
       </div>
     </div>
     <div class="portfolio">
-        <div class="container">
+        <div class="container" id="portfolio">
             <h2>Portfolio</h2>
-            <p>A quick view at some of our work</p>
+            <p>A quick view of some of our work</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
@@ -60,7 +59,7 @@
             </div>
         </div>
     </div>
-    <div class="services">
+    <div class="services" id="services">
 	  <div class="container">
 		<div class="row">
 	      <div class="col-md-4">
@@ -88,5 +87,8 @@
       <a href="https://twitter.com/catfishbluefish"><img id="twitter" src="images/twitter.png" alt="twitter"></a>
      </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   </body>
 </html>
