@@ -48,7 +48,7 @@ body {
   margin-top: 0;
 }
 
-.portfolio {
+.portfolio, #form-main{
     background-color: #efefef;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -74,6 +74,11 @@ body {
  .thumbnail img {
      -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
+    opacity: 0.8;
+ }
+
+ .thumbnail img:hover {
+  opacity: 1;
  }
 
 .services {
@@ -137,5 +142,14 @@ body {
   max-height: 40px;
 }
 
+.service-info {
+  border-bottom: 1px solid #dbdbdb;
+}
 
+.service-info .row {
+  padding-top: 20px;
+}
 
+.service-info p {
+  font-size: 1.3em;
+}
