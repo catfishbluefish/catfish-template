@@ -50,6 +50,8 @@ body {
 
 .portfolio {
     background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #dbdbdb;
 }
 
@@ -59,7 +61,7 @@ body {
 }
 
 .portfolio p {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 13px;
 }
 
@@ -76,6 +78,8 @@ body {
 
 .services {
   background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .services h3 {
@@ -85,6 +89,10 @@ body {
 
 .services a {
   color: #00b0ff;
+}
+
+.services p {
+  font-size: 16px;
 }
 
 /**About**/
@@ -113,15 +121,21 @@ body {
 }
 
 
-
-.about-footer {
-	background-color: #efefef;
-	margin-top: 60px;
-}
-
-#twitter {
-	max-width: 3%;
+.social-media {
+  padding-top: 20px;
 }
 
 
-@media screen only
+.social-media li {
+  float: right;
+  display: inline;
+  padding-left: 10px;
+
+}
+
+.social-media li img {
+  max-height: 40px;
+}
+
+
+
